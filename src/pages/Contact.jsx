@@ -86,14 +86,25 @@ const EnquiryForm = () => {
 <option value="1000+" className="bg-[#121215] text-slate-200">1000+</option>
   </select>
 </label>
-        <span className="block text-[10px] font-mono uppercase tracking-[0.25em] text-slate-500 mb-2">Service Interest</span>
-        <select data-testid="contact-field-service" value={form.service} onChange={set("service")} className={`${inputCls} bg-black text-slate-200`}>
-          <option value="">Select a service</option>
-          {SERVICES.map((s) => (
-            <option key={s.name} value={s.name} className="bg-black text-slate-200">{s.name}</option>
-          ))}
-        </select>
-      </label>
+        <label className="block sm:col-span-2">
+  <span className="block text-[10px] font-mono uppercase tracking-[0.25em] text-slate-500 mb-2">
+    Service Interest
+  </span>
+
+  <select
+    data-testid="contact-field-service"
+    value={form.service}
+    onChange={set("service")}
+    className={`${inputCls} bg-[#121215] text-slate-200`}
+  >
+    <option value="">Select a service</option>
+    {SERVICES.map((s) => (
+      <option key={s.name} value={s.name}>
+        {s.name}
+      </option>
+    ))}
+  </select>
+</label>
       <label className="block sm:col-span-2">
         <span className="block text-[10px] font-mono uppercase tracking-[0.25em] text-slate-500 mb-2">Your Story</span>
         <textarea data-testid="contact-field-message" rows={4} value={form.message} onChange={set("message")} className={`${inputCls} resize-none`} placeholder="Tell us about your wedding — the city, the venue, the mood..." />
