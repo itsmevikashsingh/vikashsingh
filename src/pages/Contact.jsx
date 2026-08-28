@@ -69,7 +69,7 @@ const EnquiryForm = () => {
       </label>
       <label className="block">
         <span className="block text-[10px] font-mono uppercase tracking-[0.25em] text-slate-500 mb-2">Guest Count</span>
-        <select data-testid="contact-field-budget" value={form.budget} onChange={set("budget")} className={`${inputCls} bg-[#121215]`}>
+        <select data-testid="contact-field-budget" value={form.budget} onChange={set("budget")} className={`${inputCls} bg-[#121215]`}
           <option value="">Number Or Guest</option>
           <option>Under 100</option>
           <option>150 – 300</option>
