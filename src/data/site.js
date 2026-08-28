@@ -16,7 +16,7 @@ export const waLink = (msg) =>
 
 export const IMAGES = {
   hero: "/vikashsinghfilms/1F666186-209F-42B3-BFAB-9B80CE0C5F17_9665B01E-2C33-4211-8963-ABBE0F0CA2EF.jpg",
-  heroAlt: "vikashsinghfilms/20250101_072837.jpg",
+  heroAlt: "public/vikashsinghfilms/DSC_8992.jpg",
   weddingDiariesCover: "wedding diaries/Picsart_24-11-25_23-20-06-725.png",
   postHouseCover: U("1607112812619-182cb1c7bb61"),
   founder: "vikashsinghfilms/20250101_072837.jpg",
