@@ -19,7 +19,7 @@ export const IMAGES = {
   heroAlt: "vikashsinghfilms/20250101_072837.jpg",
   weddingDiariesCover: "wedding diaries/Picsart_24-11-25_23-20-06-725.png",
   postHouseCover: U("1607112812619-182cb1c7bb61"),
-  founder: U("1632187989763-c9c620420b4d", 1200),
+  founder: "vikashsinghfilms/20250101_072837.jpg",
   editingTimeline: U("1574717024239-25253f4ef40a"),
   sparklers: U("1465495976277-4387d4b0b4c6"),
   aisle: U("1511285560929-80b456fea0bc"),
