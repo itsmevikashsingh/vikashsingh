@@ -17,7 +17,7 @@ const INFO = [
 ];
 
 const EnquiryForm = () => {
-  const [form, setForm] = useState({ name: "", email: "", phone: "", wedding_date: "", location: "", guests: "", service: "", message: "" });
+  const [form, setForm] = useState({ name: "", email: "", phone: "", wedding_date: "", location: "", Guest: "", service: "", message: "" });
   const [submitting, setSubmitting] = useState(false);
   const [done, setDone] = useState(false);
   const set = (k) => (e) => setForm((f) => ({ ...f, [k]: e.target.value }));
@@ -68,43 +68,24 @@ const EnquiryForm = () => {
         <input data-testid="contact-field-location" value={form.location} onChange={set("location")} className={inputCls} />
       </label>
       <label className="block">
-        <label>
-  <span className="block text-[10px] font-mono uppercase tracking-[0.25em] text-slate-500 mb-2">
-    Total Guest Count
-  </span>
-  <select
-    data-testid="contact-field-guests"
-    value={form.guests}
-    onChange={set("guests")}
-    className={`${inputCls} bg-[#121215] text-slate-200`}
-  >
-    <option value="" className="bg-[#121215] text-slate-200">Select guest count</option>
-<option value="Under 100" className="bg-[#121215] text-slate-200">Under 100</option>
-<option value="100–250" className="bg-[#121215] text-slate-200">100–250</option>
-<option value="250–500" className="bg-[#121215] text-slate-200">250–500</option>
-<option value="500–1000" className="bg-[#121215] text-slate-200">500–1000</option>
-<option value="1000+" className="bg-[#121215] text-slate-200">1000+</option>
-  </select>
-</label>
-  <label className="block sm:col-span-2">
-  <span className="block text-[10px] font-mono uppercase tracking-[0.25em] text-slate-500 mb-2">
-    Service Interest
-  </span>
-
-  <select
-    data-testid="contact-field-service"
-    value={form.service}
-    onChange={set("service")}
-    className={`${inputCls} bg-[#121215] text-slate-200`}
-  >
-    <option value="">Select a service</option>
-    {SERVICES.map((s) => (
-      <option key={s.name} value={s.name}>
-        {s.name}
-      </option>
-    ))}
-  </select>
-</label>
+        <span className="block text-[10px] font-mono uppercase tracking-[0.25em] text-slate-500 mb-2">Guest Count</span>
+        <select data-testid="contact-field-budget" value={form.budget} onChange={set("budget")} className={`${inputCls} bg-[#121215]`}>
+          <option value="">Select a range</option>
+          <option>Under 100</option>
+          <option>150 – 300</option>
+          <option>300 – 500</option>
+          <option>500+</option>
+        </select>
+      </label>
+      <label className="block sm:col-span-2">
+        <span className="block text-[10px] font-mono uppercase tracking-[0.25em] text-slate-500 mb-2">Service Interest</span>
+        <select data-testid="contact-field-service" value={form.service} onChange={set("service")} className={`${inputCls} bg-black text-slate-200`}>
+          <option value="">Select a service</option>
+          {SERVICES.map((s) => (
+            <option key={s.name} value={s.name} className="bg-black text-slate-200">{s.name}</option>
+          ))}
+        </select>
+      </label>
       <label className="block sm:col-span-2">
         <span className="block text-[10px] font-mono uppercase tracking-[0.25em] text-slate-500 mb-2">Your Story</span>
         <textarea data-testid="contact-field-message" rows={4} value={form.message} onChange={set("message")} className={`${inputCls} resize-none`} placeholder="Tell us about your wedding — the city, the venue, the mood..." />
