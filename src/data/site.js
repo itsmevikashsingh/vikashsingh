@@ -2,13 +2,13 @@ const U = (id, w = 1600) =>
   `https://images.unsplash.com/photo-${id}?q=80&w=${w}&auto=format&fit=crop`;
 
 export const CONTACT = {
-  phone: "+91 98390 12345",
-  whatsapp: "919839012345",
-  email: "vikashsinghodisha@gmail.com",
+  phone: "+91 91234 41021",
+  whatsapp: "919123441021",
+  email: "vikashsinghfilms@gmail.com",
   instagram: "https://instagram.com/vikashsinghfilms",
   instagramHandle: "@vikashsinghfilms",
   address: "Swarnrekha Nagar, Namkum, Ranchi, Jharkhand",
-  locations: ["Mumbai", "New Delhi", "Jaipur", "Dubai", "London"],
+  locations: ["Ranchi", "Bhubneswar", "Jaipur", "Patna", "Delhi"],
 };
 
 export const waLink = (msg) =>
