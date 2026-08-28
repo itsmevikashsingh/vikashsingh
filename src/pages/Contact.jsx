@@ -69,13 +69,15 @@ const EnquiryForm = () => {
       </label>
       <label className="block">
         <label>
-  <span className="block text-[10px] font-mono uppercase tracking-[0.25em] text-slate-500 mb-2">
-    Total Guest Count
-  </span>
-
-  <select
-    data-testid="contact-field-guests"
-    value={form.guests || ""}
+  <span className="block text-[10px] font-mono uppercase tracking-[0.25em] text-slate-500 mb-2">Estimated Budget</span>
+  <select data-testid="contact-field-budget" value={form.budget} onChange={set("budget")} className={`${inputCls} bg-[#121215]`}>
+    <option value="">Select a range</option>
+    <option>Under ₹1.5L</option>
+    <option>₹1.5L - ₹3L</option>
+    <option>₹3L - ₹6L</option>
+    <option>₹6L+</option>
+  </select>
+</label>
     onChange={set("guests")}
     className={`${inputCls} bg-[#121215] text-slate-200`}
   >
