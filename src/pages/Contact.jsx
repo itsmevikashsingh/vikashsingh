@@ -159,9 +159,17 @@ export default function Contact() {
                     <span className="block text-sm text-slate-200 mt-1">{CONTACT.address}</span>
                   </span>
                 </div>
-                <div className="mt-6 aspect-video bg-[#0a0a0c] border border-white/10 grid place-items-center">
-                  <p className="text-[10px] font-mono uppercase tracking-[0.3em] text-slate-600">Interactive map — coming soon</p>
-                </div>
+                <div className="mt-6 aspect-video border border-white/10 overflow-hidden">
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1831.5409709392725!2d85.3591851513682!3d23.34904568995625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f4e16fdf488b89%3A0x678856c036d416eb!2sWedding%20Diaries!5e0!3m2!1sen!2sin!4v1787895085756!5m2!1sen!2sin"
+    width="100%"
+    height="100%"
+    style={{ border: 0 }}
+    allowFullScreen
+    loading="lazy"
+    referrerPolicy="strict-origin-when-cross-origin"
+  />
+</div>
               </div>
             </Reveal>
           </div>
