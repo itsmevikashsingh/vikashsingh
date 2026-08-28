@@ -12,7 +12,7 @@ const API = `${process.env.REACT_APP_BACKEND_URL}/api`;
 const INFO = [
   { icon: Phone, label: "Phone", value: "Call Us", href: `tel:${CONTACT.phone.replace(/\s/g, "")}`, testid: "contact-phone-card" },
  { icon: MessageCircle, label: "WhatsApp", value: "Chat on WhatsApp", href: `https://wa.me/${CONTACT.phone.replace(/\D/g, "")}`, testid: "contact-whatsapp-card" },
-  { icon: Mail, label: "Email", value: CONTACT.email, href: `mailto:${CONTACT.email}`, testid: "contact-email-card" },
+  { icon: Mail, label: "Email", value: "Send an Email", href: `mailto:${CONTACT.email}`, testid: "contact-email-card" },
   { icon: Instagram, label: "Instagram", value: CONTACT.instagramHandle, href: CONTACT.instagram, testid: "contact-instagram-card" },
 ];
 
