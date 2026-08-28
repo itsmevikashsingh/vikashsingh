@@ -15,7 +15,7 @@ export const waLink = (msg) =>
   `https://wa.me/${CONTACT.whatsapp}?text=${encodeURIComponent(msg)}`;
 
 export const IMAGES = {
-  hero: U("1600270237614-d20aef1c8b14", 2400),
+  hero: "/vikashsinghfilms/1F666186-209F-42B3-BFAB-9B80CE0C5F17_9665B01E-2C33-4211-8963-ABBE0F0CA2EF.jpg",
   heroAlt: U("1606216794050-6ff7db8cb43d", 2400),
   weddingDiariesCover: U("1756483523684-392e77bc7741"),
   postHouseCover: U("1607112812619-182cb1c7bb61"),
