@@ -78,12 +78,12 @@ const EnquiryForm = () => {
     onChange={set("guests")}
     className={`${inputCls} bg-[#121215] text-slate-200`}
   >
-    <option value="">Select guest count</option>
-    <option value="Under 100">Under 100</option>
-    <option value="100–250">100–250</option>
-    <option value="250–500">250–500</option>
-    <option value="500–1000">500–1000</option>
-    <option value="1000+">1000+</option>
+    <option value="" className="bg-[#121215] text-slate-200">Select guest count</option>
+<option value="Under 100" className="bg-[#121215] text-slate-200">Under 100</option>
+<option value="100–250" className="bg-[#121215] text-slate-200">100–250</option>
+<option value="250–500" className="bg-[#121215] text-slate-200">250–500</option>
+<option value="500–1000" className="bg-[#121215] text-slate-200">500–1000</option>
+<option value="1000+" className="bg-[#121215] text-slate-200">1000+</option>
   </select>
 </label>
         <span className="block text-[10px] font-mono uppercase tracking-[0.25em] text-slate-500 mb-2">Service Interest</span>
