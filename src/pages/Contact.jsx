@@ -17,7 +17,7 @@ const INFO = [
 ];
 
 const EnquiryForm = () => {
-  const [form, setForm] = useState({ name: "", email: "", phone: "", wedding_date: "", location: "", budget: "", service: "", message: "" });
+  const [form, setForm] = useState({ name: "", email: "", phone: "", wedding_date: "", location: "", guests: "", service: "", message: "" });
   const [submitting, setSubmitting] = useState(false);
   const [done, setDone] = useState(false);
   const set = (k) => (e) => setForm((f) => ({ ...f, [k]: e.target.value }));
@@ -68,16 +68,24 @@ const EnquiryForm = () => {
         <input data-testid="contact-field-location" value={form.location} onChange={set("location")} className={inputCls} />
       </label>
       <label className="block">
-        <span className="block text-[10px] font-mono uppercase tracking-[0.25em] text-slate-500 mb-2">Estimated Budget</span>
-        <select data-testid="contact-field-budget" value={form.budget} onChange={set("budget")} className={`${inputCls} bg-[#121215]`}>
-          <option value="">Select a range</option>
-          <option>Under ₹1.5L</option>
-          <option>₹1.5L – ₹3L</option>
-          <option>₹3L – ₹6L</option>
-          <option>₹6L+</option>
-        </select>
-      </label>
-      <label className="block sm:col-span-2">
+        <label>
+  <span className="block text-[10px] font-mono uppercase tracking-[0.25em] text-slate-500 mb-2">
+    Total Guest Count
+  </span>
+  <select
+    data-testid="contact-field-guests"
+    value={form.guests}
+    onChange={set("guests")}
+    className={`${inputCls} bg-[#121215] text-slate-200`}
+  >
+    <option value="">Select guest count</option>
+    <option value="Under 100">Under 100</option>
+    <option value="100–250">100–250</option>
+    <option value="250–500">250–500</option>
+    <option value="500–1000">500–1000</option>
+    <option value="1000+">1000+</option>
+  </select>
+</label>
         <span className="block text-[10px] font-mono uppercase tracking-[0.25em] text-slate-500 mb-2">Service Interest</span>
         <select data-testid="contact-field-service" value={form.service} onChange={set("service")} className={`${inputCls} bg-black text-slate-200`}>
           <option value="">Select a service</option>
