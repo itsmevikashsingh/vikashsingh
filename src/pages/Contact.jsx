@@ -86,7 +86,7 @@ const EnquiryForm = () => {
 <option value="1000+" className="bg-[#121215] text-slate-200">1000+</option>
   </select>
 </label>
-        <label className="block sm:col-span-2">
+  <label className="block sm:col-span-2">
   <span className="block text-[10px] font-mono uppercase tracking-[0.25em] text-slate-500 mb-2">
     Service Interest
   </span>
