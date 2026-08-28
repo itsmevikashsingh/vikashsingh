@@ -70,11 +70,12 @@ const EnquiryForm = () => {
       <label className="block">
         <select data-testid="contact-field-budget" value={form.budget} onChange={set("budget")} className={`${inputCls} bg-black text-slate-200`}>
         <select data-testid="contact-field-budget" value={form.budget} onChange={set("budget")} className={`${inputCls} bg-[#121215]`}>
-          <option value="" className="bg-black text-slate-200">Select a range</option>
-          <option className="bg-black text-slate-200">Under ₹1.5L</option>
-<option className="bg-black text-slate-200">₹1.5L - ₹3L</option>
-<option className="bg-black text-slate-200">₹3L - ₹6L</option>
-<option className="bg-black text-slate-200">₹6L+</option>
+  <option value="">Select a range</option>
+  <option>Under ₹1.5L</option>
+  <option>₹1.5L - ₹3L</option>
+  <option>₹3L - ₹6L</option>
+  <option>₹6L+</option>
+</select>
         </select>
       </label>
       <label className="block sm:col-span-2">
