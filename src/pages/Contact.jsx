@@ -70,7 +70,7 @@ const EnquiryForm = () => {
       <label className="block">
         <span className="block text-[10px] font-mono uppercase tracking-[0.25em] text-slate-500 mb-2">Guest Count</span>
         <select data-testid="contact-field-budget" value={form.budget} onChange={set("budget")} className={`${inputCls} bg-[#121215]`}>
-          <option value="">Select a range</option>
+          <option value="">Select Number</option>
           <option>Under 100</option>
           <option>150 – 300</option>
           <option>300 – 500</option>
@@ -80,7 +80,7 @@ const EnquiryForm = () => {
       <label className="block">
         <span className="block text-[10px] font-mono uppercase tracking-[0.25em] text-slate-500 mb-2">Service Interest</span>
         <select data-testid="contact-field-service" value={form.service} onChange={set("service")} className={`${inputCls} bg-black text-slate-200`}>
-          <option value="">Select a service</option>
+          <option value="">Select a Service</option>
           {SERVICES.map((s) => (
             <option key={s.name} value={s.name} className="bg-black text-slate-200">{s.name}</option>
           ))}
