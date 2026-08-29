@@ -210,7 +210,7 @@ export const TEAM = [
 ];
 
 export const MARQUEE_ITEMS = [
-  "Udaipur City Palace", "Lake Como", "Dubai Residences", "The Ritz London",
-  "Rambagh Palace Jaipur", "Amalfi Coast", "Santorini", "The Post House",
+  "Udaipur City", "Jaipur", "Ranchi", "Delhi",
+  "Odisha", "Chenai", "Goa", "The Post House",
   "Wedding Diaries", "Vikash Singh Films",
 ];
