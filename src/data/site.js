@@ -136,13 +136,13 @@ export const SERVICES = [
   { name: "Event Photography", desc: "Sangeet, mehndi, engagement and reception coverage with same-week delivery.", price: "From ₹45K", img: IMAGES.celebration },
   { name: "Wedding Editing", desc: "Professional editing of your raw wedding footage by The Post House.", price: "On Request", img: IMAGES.editingTimeline },
   { name: "Color Grading", desc: "High-end film-emulation grading for wedding films and highlight reels.", price: "On Request", img: IMAGES.tealGoldBride },
-  { name: "Album Design", desc: "Handcrafted editorial album design and museum-grade print finishing.", price: "From ₹25K", img: IMAGES.rings },
-  { name: "Reels & Social Media Films", desc: "Vertical teasers, reels and next-day social cuts for every function.", price: "From ₹30K", img: IMAGES.photographer },
+  { name: "Album Design", desc: "Handcrafted editorial album design and museum-grade print finishing.", price: "From ₹16K", img: IMAGES.rings },
+  { name: "instant Reels & Social Media handel", desc: "Vertical teasers, reels and next-day social cuts for every function.", price: "From ₹20K", img: IMAGES.photographer },
   { name: "Post Production", desc: "Complete post pipeline — edit, grade, sound, master and archive.", price: "On Request", img: IMAGES.postHouseCover },
 ];
 
 export const PORTFOLIO = [
-  { src: IMAGES.coupleClassic, cat: "Weddings", title: "Aisha & Rehan", loc: "Udaipur" },
+  { src: IMAGES.coupleClassic, cat: "Weddings", title: "Anjali & deepak", loc: "Ranchi" },
   { src: IMAGES.bride, cat: "Brides", title: "Meher", loc: "New Delhi" },
   { src: IMAGES.sparklers, cat: "Events", title: "The Send-Off", loc: "Mumbai" },
   { src: IMAGES.couple, cat: "Pre-Weddings", title: "Sanya & Kabir", loc: "Goa" },
