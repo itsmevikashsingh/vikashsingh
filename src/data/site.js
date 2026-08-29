@@ -129,10 +129,10 @@ export const POST_HOUSE_SERVICES = [
 ];
 
 export const SERVICES = [
-  { name: "Wedding Photography", desc: "Editorial, candid and traditional coverage by a senior two-shooter team.", price: "From ₹1.5L", img: IMAGES.coupleClassic },
-  { name: "Cinematic Wedding Films", desc: "Multi-cam 4K cinematic films with licensed scoring and drone coverage.", price: "From ₹2.5L", img: IMAGES.cinema },
-  { name: "Pre-Wedding Photography", desc: "Destination pre-wedding stories — styled, directed and editorially lit.", price: "From ₹60K", img: IMAGES.couple },
-  { name: "Pre-Wedding Films", desc: "Concept-led couple films shot like a short movie, graded like a feature.", price: "From ₹85K", img: IMAGES.sparklerNight },
+  { name: "Wedding Cover 1 Day", desc: "Editorial, candid and traditional coverage by a senior two-shooter team.", price: "From ₹90k", img: IMAGES.coupleClassic },
+  { name: "Wedding & pre-wedding", desc: "Multi-cam 4K cinematic films with licensed scoring and drone coverage.", price: "From ₹1.90L", img: IMAGES.cinema },
+  { name: "Pre-Wedding Photography 1 day", desc: "Destination pre-wedding stories — styled, directed and editorially lit.", price: "From ₹35K", img: IMAGES.couple },
+  { name: "Pre-Wedding Photgraphy + videography 1 Day", desc: "Concept-led couple films shot like a short movie, graded like a feature.", price: "From ₹55K", img: IMAGES.sparklerNight },
   { name: "Event Photography", desc: "Sangeet, mehndi, engagement and reception coverage with same-week delivery.", price: "From ₹45K", img: IMAGES.celebration },
   { name: "Wedding Editing", desc: "Professional editing of your raw wedding footage by The Post House.", price: "On Request", img: IMAGES.editingTimeline },
   { name: "Color Grading", desc: "High-end film-emulation grading for wedding films and highlight reels.", price: "On Request", img: IMAGES.tealGoldBride },
