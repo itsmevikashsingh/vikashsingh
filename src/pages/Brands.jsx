@@ -63,9 +63,9 @@ const SoonCard = ({ brand, index }) => (
 
 export default function Brands() {
   useSEO(
-    "Our Brands — Vikash Singh Films",
-    "Explore the brands of Vikash Singh Films: Wedding Diaries (photography & cinematography) and The Post House (wedding post-production studio)."
-  );
+  "Vikash Singh Films | Wedding Diaries & The Post House | Ranchi",
+  "Vikash Singh Films is a Ranchi-based photography and filmmaking company with Wedding Diaries for wedding photography, candid photography, wedding cinematography and pre-wedding shoots, and The Post House for professional video editing, color grading and wedding post-production."
+);
   const live = BRANDS.filter((b) => b.status === "live");
   const soon = BRANDS.filter((b) => b.status === "soon");
   return (
