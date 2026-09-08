@@ -7,9 +7,9 @@ import { useSEO } from "@/hooks/useSEO";
 
 export default function Services() {
   useSEO(
-    "Services — Vikash Singh Films",
-    "Wedding photography, cinematic films, pre-weddings, editing, color grading, album design, reels and complete post production."
-  );
+  "Wedding Photography & Videography Services in Ranchi | Vikash Singh Films",
+  "Vikash Singh Films offers professional wedding photography, candid photography, wedding videography, cinematic wedding films, pre-wedding shoots, event photography, photo editing, video editing, color grading, album design and reels production in Ranchi, Jharkhand."
+);
   return (
     <motion.main
       data-testid="page-services"
