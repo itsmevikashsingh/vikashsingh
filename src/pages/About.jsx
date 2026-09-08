@@ -19,9 +19,9 @@ const APPROACH = [
 
 export default function About() {
   useSEO(
-    "About — Vikash Singh Films",
-    "Vikash Singh Films is the umbrella brand uniting wedding photography, cinematic films and professional post-production under one roof."
-  );
+  "Vikash Singh Films | Professional Photographer in Ranchi",
+  "Vikash Singh Films is a professional photography and cinematography company in Ranchi, Jharkhand, specializing in wedding photography, candid photography, cinematic wedding films, pre-wedding shoots, wedding videography and professional post-production."
+);
   return (
     <motion.main
       data-testid="page-about"
