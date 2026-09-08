@@ -243,9 +243,9 @@ const CTASection = () => (
 
 export default function Home() {
   useSEO(
-    "Vikash Singh Films — We Capture Moments. We Create Stories.",
-    "Premium wedding photography, cinematography and post-production house. Home of Wedding Diaries and The Post House."
-  );
+  "Vikash Singh Films | Best Wedding Photographer in Ranchi",
+  "Vikash Singh Films is a professional wedding photography and cinematography studio in Ranchi, Jharkhand. We specialize in wedding photography, cinematic wedding films, pre-wedding shoots and professional post-production."
+);
   return (
     <motion.main
       data-testid="page-home"
