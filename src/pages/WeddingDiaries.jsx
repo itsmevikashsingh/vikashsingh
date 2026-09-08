@@ -26,8 +26,8 @@ const FilmStrip = ({ film, cover, testid }) => (
 
 export default function WeddingDiaries() {
   useSEO(
-  "Wedding Photographer in Ranchi | Wedding Diaries | Vikash Singh Films",
-  "Wedding Diaries by Vikash Singh Films showcases wedding photography, candid wedding photography, cinematic wedding films and pre-wedding shoots in Ranchi, Jharkhand."
+  "Wedding Photographer in Ranchi | Candid Wedding Photography | Vikash Singh Films",
+  "Vikash Singh Films Wedding Diaries features the best wedding photography in Ranchi, including candid wedding photography, cinematic wedding films, wedding videography, pre-wedding photography, couple photoshoots and real wedding stories in Ranchi, Jharkhand."
 );
   return (
     <motion.main
