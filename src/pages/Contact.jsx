@@ -101,9 +101,9 @@ const EnquiryForm = () => {
 
 export default function Contact() {
   useSEO(
-    "Contact — Vikash Singh Films",
-    "Book Vikash Singh Films for your wedding. Phone, WhatsApp, email and Instagram — let's create something timeless."
-  );
+  "Contact Wedding Photographer in Ranchi | Vikash Singh Films",
+  "Contact Vikash Singh Films in Ranchi, Jharkhand for wedding photography, candid photography, wedding videography, cinematic wedding films, pre-wedding shoots and professional photography services. Get in touch for bookings and enquiries."
+);
   return (
     <motion.main
       data-testid="page-contact"
