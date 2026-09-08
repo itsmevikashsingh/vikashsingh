@@ -9,9 +9,9 @@ const slug = (s) => s.toLowerCase().replace(/[^a-z0-9]+/g, "-");
 
 export default function Portfolio() {
   useSEO(
-    "Portfolio — Vikash Singh Films",
-    "Editorial wedding portfolio: weddings, pre-weddings, cinematic films, brides, grooms, details, events and post production."
-  );
+  "Best Photographer in Ranchi | Wedding Photography Portfolio | Vikash Singh Films",
+  "Explore Vikash Singh Films photography portfolio featuring wedding photography, candid wedding photography, pre-wedding shoots, cinematic wedding films, wedding videography, couple photoshoots and professional event photography in Ranchi, Jharkhand."
+);
   const [cat, setCat] = useState("All");
   const [lightbox, setLightbox] = useState(null);
   const items = cat === "All" ? PORTFOLIO : PORTFOLIO.filter((p) => p.cat === cat);
