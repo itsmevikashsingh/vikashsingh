@@ -145,9 +145,9 @@ const QuoteForm = () => {
 
 export default function PostHouse() {
   useSEO(
-    "The Post House — Wedding Post Production Studio | Vikash Singh Films",
-    "Professional wedding post-production: film editing, color grading, photo editing, album design and cinematic highlights for photographers and studios."
-  );
+  "Video Editing & Post Production Ranchi | The Post House",
+  "The Post House by Vikash Singh Films offers professional video editing, wedding film editing, cinematic video editing, color grading, photo editing and wedding post-production services in Ranchi, Jharkhand."
+);
   return (
     <motion.main
       data-testid="page-post-house"
