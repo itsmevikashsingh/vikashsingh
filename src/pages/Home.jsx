@@ -47,7 +47,11 @@ const Hero = () => {
         <div className="mt-10 max-w-2xl">
           <MaskedLines
             delay={0.7}
-            lines={[<span key="t" className="italic text-gold-gradient">We Capture Moments. We Create Stories.</span>]}
+            lines={[
+  <span key="t" className="italic text-gold-gradient">
+    Wedding Photography & Cinematography in Ranchi
+  </span>
+]}
             lineClassName="font-serif text-2xl sm:text-3xl lg:text-4xl"
           />
           <motion.p
@@ -56,8 +60,7 @@ const Hero = () => {
             transition={{ delay: 1.05, duration: 0.9, ease: [0.22, 1, 0.36, 1] }}
             className="text-sm sm:text-base text-slate-300/90 font-light leading-relaxed mt-6"
           >
-            A complete wedding visual storytelling house bringing photography, cinematography
-            and professional post-production together under one roof.
+            A professional wedding photography and cinematography studio in Ranchi, Jharkhand, creating candid wedding photographs, cinematic wedding films and unforgettable pre-wedding stories.
           </motion.p>
           <motion.div
             initial={{ opacity: 0, y: 20 }}
