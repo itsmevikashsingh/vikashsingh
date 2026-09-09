@@ -39,10 +39,11 @@ const Hero = () => {
           Photography · Cinematography · Post Production
         </motion.p>
 
-        <MaskedLines
-          lines={["VIKASH", "SINGH FILMS"]}
-          lineClassName="font-serif font-light leading-[0.95] tracking-tight text-[15vw] sm:text-[11vw] lg:text-[8.5vw] text-slate-50"
-        />
+        <h1 className="font-serif font-light leading-[0.95] tracking-tight text-[15vw] sm:text-[11vw] lg:text-[8.5vw] text-slate-50">
+  VIKASH
+  <br />
+  SINGH FILMS
+</h1>
 
         <div className="mt-10 max-w-2xl">
           <MaskedLines
